@@ -1,0 +1,750 @@
+[
+  {
+    "id": "project_poulainville",
+    "type": "project",
+    "name": "Reconversion de l’ancienne usine Ÿnsect — Poulainville",
+    "short_name": "Reconversion de l’ancienne usin…",
+    "description": "Site industriel étudié pour accueillir un projet de calcul intensif/data center. Porteur final et nature juridique non officiellement confirmés au 5 novembre 2026.",
+    "roles": [
+      {
+        "label": "Projet central — statut non finalisé"
+      }
+    ],
+    "categories": [
+      "project"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0001",
+    "type": "site",
+    "name": "Ancienne usine ŸnFarm / Ÿnsect",
+    "short_name": "Ancienne usine ŸnFarm / Ÿnsect",
+    "description": "Bâtiment de production d’insectes situé à Poulainville, fermé après la liquidation judiciaire du groupe en décembre 2025. L’article du Courrier Picard évoque environ 45 000 m² de bâtiment et 35 mètres de hauteur.",
+    "roles": [
+      {
+        "label": "Friche industrielle"
+      }
+    ],
+    "categories": [
+      "project"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0002",
+    "type": "territory",
+    "name": "Poulainville",
+    "short_name": "Poulainville",
+    "description": "Commune de la Somme au nord d’Amiens, lieu de l’ancienne usine Ÿnsect.",
+    "roles": [
+      {
+        "label": "Commune hôte"
+      }
+    ],
+    "categories": [
+      "territoire"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0003",
+    "type": "org",
+    "name": "Amiens Métropole",
+    "short_name": "Amiens Métropole",
+    "description": "Intercommunalité mobilisée avec l’État et les collectivités sur la reconversion de l’ancienne usine et l’emploi local.",
+    "roles": [
+      {
+        "label": "Collectivité associée"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0004",
+    "type": "org",
+    "name": "Préfecture de la Somme",
+    "short_name": "Préfecture de la Somme",
+    "description": "Services de l’État mobilisés pour la reconversion et la qualification du site comme foncier stratégique.",
+    "roles": [
+      {
+        "label": "Pilotage public"
+      }
+    ],
+    "categories": [
+      "etat"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0005",
+    "type": "org",
+    "name": "RTE",
+    "short_name": "RTE",
+    "description": "Gestionnaire du réseau public de transport d’électricité. Pré-réservation administrative de 700 MW sur le site à compter du 31 juillet 2026 ; aucun raccordement effectif prouvé.",
+    "roles": [
+      {
+        "label": "Pré-réservation de capacité"
+      }
+    ],
+    "categories": [
+      "energie"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0006",
+    "type": "org",
+    "name": "Banque des Territoires",
+    "short_name": "Banque des Territoires",
+    "description": "Acteur de la Caisse des Dépôts intervenant dans la sécurisation du foncier afin de faciliter une reconversion industrielle.",
+    "roles": [
+      {
+        "label": "Sécurisation foncière"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0007",
+    "type": "org",
+    "name": "Région Hauts-de-France",
+    "short_name": "Région Hauts-de-France",
+    "description": "La région est citée parmi les collectivités mobilisées pour la recherche d’une nouvelle activité économique sur la friche Ÿnsect.",
+    "roles": [
+      {
+        "label": "Mobilisation régionale"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0008",
+    "type": "org",
+    "name": "État français",
+    "short_name": "État français",
+    "description": "Désigne le site comme foncier stratégique et demande à RTE la pré-réservation de puissance ; cette qualification ne vaut pas permis ou investissement définitif.",
+    "roles": [
+      {
+        "label": "Cadre Fast Track"
+      }
+    ],
+    "categories": [
+      "etat"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0009",
+    "type": "org",
+    "name": "Ÿnsect",
+    "short_name": "Ÿnsect",
+    "description": "Ancien exploitant du site de ferme-usine de protéines d’insectes, liquidé judiciairement le 1er décembre 2025 ; n’est pas présenté comme porteur du data center.",
+    "roles": [
+      {
+        "label": "Exploitant industriel historique"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0010",
+    "type": "org",
+    "name": "SCI Vertycal",
+    "short_name": "SCI Vertycal",
+    "description": "Structure citée par Le Courrier Picard comme propriétaire d’une partie des bâtiments ; le périmètre précis de propriété et d’actionnariat reste à vérifier dans les actes.",
+    "roles": [
+      {
+        "label": "Foncier — information de presse"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0011",
+    "type": "org",
+    "name": "Caisse des Dépôts",
+    "short_name": "Caisse des Dépôts",
+    "description": "Institution à laquelle est rattachée la Banque des Territoires ; une participation proche de la moitié de SCI Vertycal est rapportée par un ancien représentant d’Ÿnsect, sans acte vérifié ici.",
+    "roles": [
+      {
+        "label": "Investisseur institutionnel"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0012",
+    "type": "org",
+    "name": "Mistral AI",
+    "short_name": "Mistral AI",
+    "description": "Cité en mai 2026 comme candidat possible par Le Courrier Picard. Ni Mistral AI ni les pouvoirs publics n’avaient confirmé publiquement cette attribution dans les ressources vérifiées.",
+    "roles": [
+      {
+        "label": "Piste de porteur — non confirmée"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0013",
+    "type": "org",
+    "name": "Eclairion",
+    "short_name": "Eclairion",
+    "description": "Une offre d’emploi Eclairion pour un responsable maintenance data center indique Poulainville. Ce signal de recrutement ne confirme pas la reprise de l’usine Ÿnsect ni un contrat local.",
+    "roles": [
+      {
+        "label": "Signal faible — recrutement"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0014",
+    "type": "person",
+    "name": "Hadrien Godard",
+    "short_name": "Hadrien Godard",
+    "description": "Ancien représentant des salariés/CSE d’Ÿnsect. Juge le site adaptable techniquement aux serveurs mais alerte sur la consommation d’eau, d’électricité et le devenir social de l’usine.",
+    "roles": [
+      {
+        "label": "Ex-représentant salarié"
+      }
+    ],
+    "categories": [
+      "analystes"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0015",
+    "type": "person",
+    "name": "Rémi Cardon",
+    "short_name": "Rémi Cardon",
+    "description": "Sénateur de la Somme, exprime une position prudente sur la piste data center : rebond souhaitable mais préférence pour une industrie structurante, suivi des ex-salariés.",
+    "roles": [
+      {
+        "label": "Sénateur — réserves exprimées"
+      }
+    ],
+    "categories": [
+      "elus-neutres"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0016",
+    "type": "person",
+    "name": "Léon Deffontaines",
+    "short_name": "Léon Deffontaines",
+    "description": "Vice-président d’Amiens Métropole chargé de l’industrie et de la recherche en août 2026 ; accueille positivement la reconversion, en souhaitant des technologies françaises ou européennes.",
+    "roles": [
+      {
+        "label": "Soutien conditionné à la souveraineté"
+      }
+    ],
+    "categories": [
+      "elus-fav"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0017",
+    "type": "person",
+    "name": "Frédéric Fauvet",
+    "short_name": "Frédéric Fauvet",
+    "description": "Président d’Amiens Métropole à l’automne 2026, présente un projet de gigacalculateur et une projection de 100–200 emplois en phase initiale, 300–400 à terme, sans opérateur définitivement confirmé.",
+    "roles": [
+      {
+        "label": "Président d’Amiens Métropole"
+      }
+    ],
+    "categories": [
+      "elus-fav"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0018",
+    "type": "person",
+    "name": "Jean-Pierre Pardoux",
+    "short_name": "Jean-Pierre Pardoux",
+    "description": "Maire de Poulainville confirmé après les élections de 2026. Aucune position personnelle spécifique sur l’identité ou les modalités du nouveau data center établie dans les sources utilisées.",
+    "roles": [
+      {
+        "label": "Maire de Poulainville"
+      }
+    ],
+    "categories": [
+      "elus-neutres"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0019",
+    "type": "person",
+    "name": "Rollon Mouchel-Blaisot",
+    "short_name": "Rollon Mouchel-Blaisot",
+    "description": "Préfet de la Somme en 2026, valorise la reconversion économique de la friche dans le communiqué relayé par La Gazette France.",
+    "roles": [
+      {
+        "label": "Préfet de la Somme"
+      }
+    ],
+    "categories": [
+      "etat"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0020",
+    "type": "person",
+    "name": "Alain-François Souchon",
+    "short_name": "Alain-François Souchon",
+    "description": "Liquidateur judiciaire d’Ÿnsect cité par Le Courrier Picard pour les pistes de reconversion du bâtiment ; aucun contrat de data center signé établi.",
+    "roles": [
+      {
+        "label": "Liquidateur — pistes étudiées"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0021",
+    "type": "org",
+    "name": "Anciens salariés d’Ÿnsect",
+    "short_name": "Anciens salariés d’Ÿnsect",
+    "description": "Collectif des personnes concernées par la liquidation ; procédure sociale et reclassements documentés par la réponse du Gouvernement du 15 septembre 2026.",
+    "roles": [
+      {
+        "label": "Salariés / emploi"
+      }
+    ],
+    "categories": [
+      "formation"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0022",
+    "type": "person",
+    "name": "François Ruffin",
+    "short_name": "François Ruffin",
+    "description": "Député auteur d’une question écrite sur le financement public et la liquidation d’Ÿnsect ; cette interrogation n’est pas une opposition au futur projet de data center.",
+    "roles": [
+      {
+        "label": "Contrôle parlementaire"
+      }
+    ],
+    "categories": [
+      "analystes"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0023",
+    "type": "person",
+    "name": "Thomas Hutin",
+    "short_name": "Thomas Hutin",
+    "description": "Élu écologiste régional demandant une mission d’évaluation sur les aides publiques apportées à Ÿnsect en décembre 2025 ; aucune position explicite sur le futur data center n’est démontrée.",
+    "roles": [
+      {
+        "label": "Contrôle des aides Ynsect"
+      }
+    ],
+    "categories": [
+      "analystes"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0024",
+    "type": "person",
+    "name": "Xavier Bertrand",
+    "short_name": "Xavier Bertrand",
+    "description": "Président de la région Hauts-de-France associé à une politique favorable à l’accueil de data centers ; sa position spécifique sur l’opérateur inconnu de Poulainville n’est pas établie.",
+    "roles": [
+      {
+        "label": "Président de région — cadrage"
+      }
+    ],
+    "categories": [
+      "elus-neutres"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0025",
+    "type": "org",
+    "name": "Commission de régulation de l’énergie (CRE)",
+    "short_name": "Commission de régulation de l’é…",
+    "description": "Autorité ayant approuvé le cadre de la procédure de raccordement accéléré le 7 mai 2025, applicable aux sites retenus dont Poulainville.",
+    "roles": [
+      {
+        "label": "Régulateur Fast Track"
+      }
+    ],
+    "categories": [
+      "energie"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0026",
+    "type": "technical",
+    "name": "Pré-réservation RTE de 700 MW",
+    "short_name": "Pré-réservation RTE de 700 MW",
+    "description": "Puissance pré-réservée sur décision de l’État pour une durée initiale maximale de neuf mois à compter du 31 juillet 2026, renouvelable trois mois sous condition. Ce n’est pas la puissance effective d’un data center.",
+    "roles": [
+      {
+        "label": "700 MW — pré-réservation"
+      }
+    ],
+    "categories": [
+      "energie"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0027",
+    "type": "technical",
+    "name": "Statut Fast Track",
+    "short_name": "Statut Fast Track",
+    "description": "Mécanisme accéléré de raccordement, non autorisation d’urbanisme, non contrat de raccordement accepté, ni preuve d’exploitation.",
+    "roles": [
+      {
+        "label": "Procédure"
+      }
+    ],
+    "categories": [
+      "energie"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0028",
+    "type": "issue",
+    "name": "Porteur final non confirmé",
+    "short_name": "Porteur final non confirmé",
+    "description": "Au 5 novembre 2026, aucun communiqué final retenu ne nomme contractuellement l’opérateur du projet de reconversion. Mistral AI n’est qu’une piste de presse ; offre Eclairion = signal faible.",
+    "roles": [
+      {
+        "label": "Incertitude centrale"
+      }
+    ],
+    "categories": [
+      "vigilance"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0029",
+    "type": "issue",
+    "name": "Usages de l’eau et refroidissement",
+    "short_name": "Usages de l’eau et refroidissem…",
+    "description": "Les caractéristiques historiques du bâtiment sont évoquées, sans étude environnementale ni prévision hydrique validée pour un futur data center.",
+    "roles": [
+      {
+        "label": "Question technique"
+      }
+    ],
+    "categories": [
+      "vigilance"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0030",
+    "type": "issue",
+    "name": "Emplois annoncés : 300 à 400 à terme",
+    "short_name": "Emplois annoncés : 300 à 400 à …",
+    "description": "Projection faite le 24 septembre 2026 par Frédéric Fauvet, rapportée le 6 octobre ; 100–200 sur les premières tranches envisagées. Aucun bilan d’emplois directs créé.",
+    "roles": [
+      {
+        "label": "Projection politique"
+      }
+    ],
+    "categories": [
+      "formation"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0031",
+    "type": "issue",
+    "name": "Contrôle des aides publiques à Ÿnsect",
+    "short_name": "Contrôle des aides publiques à …",
+    "description": "Débat régional et parlementaire sur l’échec du projet Ÿnsect, à ne pas confondre avec des critiques du futur data center.",
+    "roles": [
+      {
+        "label": "Héritage financier Ynsect"
+      }
+    ],
+    "categories": [
+      "vigilance"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0032",
+    "type": "issue",
+    "name": "Procédure sociale des ex-salariés",
+    "short_name": "Procédure sociale des ex-salariés",
+    "description": "Après liquidation, démarches judiciaires, reclassements et dispositif de sécurisation professionnelle se poursuivent ; enjeu distinct du porteur informatique futur.",
+    "roles": [
+      {
+        "label": "Transition sociale"
+      }
+    ],
+    "categories": [
+      "formation"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0033",
+    "type": "issue",
+    "name": "Souveraineté numérique / IA",
+    "short_name": "Souveraineté numérique / IA",
+    "description": "Objectif invoqué par les élus pour les technologies et l’écosystème informatique, sans preuve du lieu de stockage des données, de la gouvernance technique ni de la nationalité du futur opérateur.",
+    "roles": [
+      {
+        "label": "Attente politique"
+      }
+    ],
+    "categories": [
+      "vigilance"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0034",
+    "type": "project",
+    "name": "Projet de data center du Bosquel",
+    "short_name": "Projet de data center du Bosquel",
+    "description": "Autre projet de data center dans la Somme cité à titre de comparaison. Aucun lien contractuel direct avec Poulainville établi.",
+    "roles": [
+      {
+        "label": "Contexte géographique"
+      }
+    ],
+    "categories": [
+      "project"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0035",
+    "type": "issue",
+    "name": "Option d’entrepôt logistique",
+    "short_name": "Option d’entrepôt logistique",
+    "description": "Scénario de reconversion discuté avec l’option data center début 2026 ; absence de décision documentée dans les sources du premier semestre.",
+    "roles": [
+      {
+        "label": "Alternative foncière"
+      }
+    ],
+    "categories": [
+      "vigilance"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0036",
+    "type": "org",
+    "name": "France Travail",
+    "short_name": "France Travail",
+    "description": "Organisme participant au suivi et à la reconversion des salariés de Ÿnsect dans le cadre du contrat de sécurisation professionnelle.",
+    "roles": [
+      {
+        "label": "Reclassement après Ÿnsect"
+      }
+    ],
+    "categories": [
+      "formation"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0037",
+    "type": "org",
+    "name": "DDETS de la Somme",
+    "short_name": "DDETS de la Somme",
+    "description": "Services de l’État associés au reclassement des salariés et aux comités de suivi après liquidation d’Ÿnsect.",
+    "roles": [
+      {
+        "label": "Accompagnement des anciens salariés"
+      }
+    ],
+    "categories": [
+      "etat"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0038",
+    "type": "media",
+    "name": "ici Picardie",
+    "short_name": "ici Picardie",
+    "description": "Source régionale du 7 août 2026 documentant les annonces et les réserves exprimées par les élus et ex-salariés.",
+    "roles": [
+      {
+        "label": "Média source"
+      }
+    ],
+    "categories": [
+      "medias"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0039",
+    "type": "media",
+    "name": "France 3 Hauts-de-France",
+    "short_name": "France 3 Hauts-de-France",
+    "description": "Source régionale du 7 août 2026 rapportant les déclarations de la préfecture et les préoccupations sociales et environnementales.",
+    "roles": [
+      {
+        "label": "Média source"
+      }
+    ],
+    "categories": [
+      "medias"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0040",
+    "type": "media",
+    "name": "Courrier Picard",
+    "short_name": "Courrier Picard",
+    "description": "Source régionale des informations sur les pistes de reconversion, notamment l’hypothèse Mistral AI et le bâti industriel.",
+    "roles": [
+      {
+        "label": "Média source"
+      }
+    ],
+    "categories": [
+      "medias"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0041",
+    "type": "territory",
+    "name": "Amiens",
+    "short_name": "Amiens",
+    "description": "Ville-centre de l’agglomération voisine de Poulainville, sans être la commune d’implantation du site Ÿnsect.",
+    "roles": [
+      {
+        "label": "Territoire de proximité"
+      }
+    ],
+    "categories": [
+      "territoire"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0042",
+    "type": "technical",
+    "name": "Ancien bâtiment de 45 000 m²",
+    "short_name": "Ancien bâtiment de 45 000 m²",
+    "description": "Surface de bâtiment industriel indiquée dans le Courrier Picard du 6 février 2026 ; ne correspond pas à une surface nouvelle de serveurs autorisée.",
+    "roles": [
+      {
+        "label": "Bâti existant"
+      }
+    ],
+    "categories": [
+      "project"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0043",
+    "type": "issue",
+    "name": "Site Géorisques — inspections Ÿnsect",
+    "short_name": "Site Géorisques — inspections Ÿ…",
+    "description": "L’établissement Ÿnsect figure dans Géorisques avec des rapports d’inspection datés du 19 novembre 2025 et du 19 mai 2026 ; ils concernent le site historique.",
+    "roles": [
+      {
+        "label": "Suivi environnemental existant"
+      }
+    ],
+    "categories": [
+      "vigilance"
+    ],
+    "display_in_cards": false,
+    "updated_at": "2026-11-05"
+  }
+]

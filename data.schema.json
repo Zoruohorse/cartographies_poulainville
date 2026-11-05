@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "referential_files": [
+    "data/meta.json",
+    "data/actors.json",
+    "data/claims.json",
+    "data/evidence.json",
+    "data/relations.json",
+    "data/sources.json",
+    "data/synthesis.json",
+    "data/content.json",
+    "config/taxonomy.json"
+  ],
+  "data_validated_at": "2026-11-05"
+}

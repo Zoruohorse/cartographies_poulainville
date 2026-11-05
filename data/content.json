@@ -1,0 +1,173 @@
+{
+  "project_status": "Reconversion en préparation : site labellisé Fast Track, opérateur final non confirmé au 05/11/2026.",
+  "project_summary": "Ancienne usine Ÿnsect / ŸnFarm de Poulainville au nord d’Amiens, étudiée pour une activité électro-intensive dont un data center/gigacalculateur. L’État a demandé 700 MW de pré-réservation à RTE. Aucun contrat opérateur final documenté dans le corpus.",
+  "fact_sheet": [
+    {
+      "label": "Foncier",
+      "value": "Ancienne usine ŸnFarm (Poulainville)",
+      "qualifier": "Bâtiment historique exploité par Ÿnsect ; situation foncière détaillée à vérifier",
+      "evidence_ids": [
+        "evidence_0010",
+        "evidence_0014"
+      ]
+    },
+    {
+      "label": "Puissance",
+      "value": "700 MW pré-réservés",
+      "qualifier": "Capacité réseau réservée administrativement ; aucun MW IT ni raccordement effectif confirmé",
+      "evidence_ids": [
+        "evidence_0001",
+        "evidence_0003"
+      ]
+    },
+    {
+      "label": "Début pré-réservation",
+      "value": "31 juillet 2026",
+      "qualifier": "Neuf mois, prorogeable de trois mois sous condition de sélection foncière",
+      "evidence_ids": [
+        "evidence_0001"
+      ]
+    },
+    {
+      "label": "Opérateur",
+      "value": "Non confirmé",
+      "qualifier": "Hypothèses Mistral AI et signal recrutement Eclairion non concluants",
+      "evidence_ids": [
+        "evidence_0013",
+        "evidence_0029"
+      ]
+    },
+    {
+      "label": "Bâtiment historique",
+      "value": "Environ 45 000 m²",
+      "qualifier": "Surface de l’ancienne usine selon un article du Courrier Picard, non surface informatique autorisée",
+      "evidence_ids": [
+        "evidence_0011"
+      ]
+    },
+    {
+      "label": "Emplois",
+      "value": "300–400 à terme annoncés",
+      "qualifier": "Projection d’Amiens Métropole du 24 septembre 2026, non vérifiée sur un opérateur confirmé",
+      "evidence_ids": [
+        "evidence_0026"
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "date": "2025-12-01",
+      "period_precision": "day",
+      "status": "completed",
+      "title": "Liquidation judiciaire d’Ÿnsect",
+      "details": "Arrêt de la ferme-usine et ouverture de la question de sa reconversion.",
+      "evidence_ids": [
+        "evidence_0010"
+      ]
+    },
+    {
+      "date": "2026-01-29",
+      "period_precision": "day",
+      "status": "completed",
+      "title": "Piste de reconversion en data center",
+      "details": "Le Courrier Picard évoque l’étude d’un data center parmi plusieurs solutions.",
+      "evidence_ids": [
+        "evidence_0034"
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "period_precision": "day",
+      "status": "reported",
+      "title": "Hypothèse Mistral AI dans la presse",
+      "details": "Piste journalistique jamais assimilée à un contrat confirmé.",
+      "evidence_ids": [
+        "evidence_0012",
+        "evidence_0013"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "period_precision": "day",
+      "status": "completed",
+      "title": "Pré-réservation Fast Track de 700 MW",
+      "details": "Durée initiale de neuf mois selon RTE.",
+      "evidence_ids": [
+        "evidence_0001"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "period_precision": "day",
+      "status": "completed",
+      "title": "Annonce officielle de reconversion industrielle",
+      "details": "Préfecture, Banque des Territoires et RTE présentent le foncier stratégique et l’accélération de raccordement, sans nommer d’opérateur.",
+      "evidence_ids": [
+        "evidence_0004",
+        "evidence_0017"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "period_precision": "day",
+      "status": "completed",
+      "title": "Perspectives présentées au conseil d’Amiens Métropole",
+      "details": "Frédéric Fauvet évoque un gigacalculateur et 300 à 400 emplois à terme (séance du 24 septembre, article du 6 octobre).",
+      "evidence_ids": [
+        "evidence_0026"
+      ]
+    },
+    {
+      "date": "2026-10",
+      "period_precision": "month",
+      "status": "forecast",
+      "title": "Annonce d’opérateurs prévue mais non confirmée",
+      "details": "La communication d’octobre envisageait un dévoilement vers mi-octobre ; aucune annonce définitive retrouvée à la date d’arrêté.",
+      "evidence_ids": [
+        "evidence_0027"
+      ]
+    },
+    {
+      "date": "2027-04",
+      "period_precision": "month",
+      "status": "forecast",
+      "title": "Échéance de la première pré-réservation",
+      "details": "Neuf mois après le 31 juillet 2026, avant éventuelle prorogation conditionnelle de trois mois ; ne signifie pas un raccordement acquis.",
+      "evidence_ids": [
+        "evidence_0001"
+      ]
+    }
+  ],
+  "red_flags": [
+    {
+      "label": "Opérateur final",
+      "status": "unverified",
+      "description": "Pas de porteur contractuellement désigné dans les sources consultées."
+    },
+    {
+      "label": "Puissance IT",
+      "status": "unknown",
+      "description": "Aucune puissance IT nominale connue."
+    },
+    {
+      "label": "Convention RTE",
+      "status": "unknown",
+      "description": "Pré-réservation != convention de raccordement finalisée."
+    },
+    {
+      "label": "Permis / environnement",
+      "status": "unknown",
+      "description": "Aucun acte de permis de data center documenté dans le lot."
+    },
+    {
+      "label": "Emplois directs",
+      "status": "projection",
+      "description": "Distinguer prospective politique et embauches observées."
+    },
+    {
+      "label": "Opposants associatifs locaux",
+      "status": "not_identified",
+      "description": "Ne pas inventer de collectif à partir des critiques historiques d’Ÿnsect."
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "source_0001",
+    "title": "RTE — Validation de la procédure fast-track à Poulainville",
+    "publisher": "RTE",
+    "url": "https://services-rte.org/fr/actualites/validation-par-l-Etat-d-un-nouveau-site-fast-track-a-Poulainville.html",
+    "source_type": "primary",
+    "consultation": "direct",
+    "published_at": "2026-07-31",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0002",
+    "title": "Raccordement électrique jusqu’à 700 MW : l’ancien site Ynsect accueillera-t-il un data center ?",
+    "publisher": "ici Picardie",
+    "url": "https://www.ici.fr/hauts-de-france/somme-80/poulainville/raccordement-electrique-jusqu-a-700-mw-l-ancien-site-ynsect-a-amiens-accueillera-t-il-un-data-center-4421566",
+    "source_type": "press",
+    "consultation": "xlsx_excerpt",
+    "published_at": "2026-08-07",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0003",
+    "title": "Reconversion d’Ynsect : une activité à forte consommation d’énergie envisagée",
+    "publisher": "France 3 Hauts-de-France",
+    "url": "https://france3-regions.franceinfo.fr/hauts-de-france/somme/amiens/reconversion-de-l-ancien-site-d-ynsect-une-activite-a-forte-consommation-d-energie-pourrait-bientot-s-y-installer-3398347.html",
+    "source_type": "press",
+    "consultation": "xlsx_excerpt",
+    "published_at": "2026-08-07",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0004",
+    "title": "Et si Mistral AI implantait un data center sur le site d’Ynsect ?",
+    "publisher": "Courrier Picard",
+    "url": "https://www.courrier-picard.fr/id720726/article/2026-05-27/et-si-mistral-ai-implantait-un-data-center-sur-le-site-dynsect-poulainville",
+    "source_type": "press",
+    "consultation": "xlsx_excerpt",
+    "published_at": "2026-05-27",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0005",
+    "title": "La piste d’un data center étudiée pour la reconversion d’Ynsect",
+    "publisher": "Courrier Picard",
+    "url": "https://www.courrier-picard.fr/id693061/article/2026-01-29/la-piste-dun-data-center-etudiee-pour-la-reconversion-dynsect-poulainville",
+    "source_type": "press",
+    "consultation": "xlsx_excerpt",
+    "published_at": "2026-01-29",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0006",
+    "title": "Hauts-de-France : ambition de territoire d’implantation de data centers",
+    "publisher": "Courrier Picard",
+    "url": "https://www.courrier-picard.fr/id694869/article/2026-02-06/les-hauts-de-france-dont-la-picardie-ont-lambition-detre-une-terre-dimplantation",
+    "source_type": "press",
+    "consultation": "xlsx_excerpt",
+    "published_at": "2026-02-06",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0007",
+    "title": "Le point sur Ÿnsect et Tiamat",
+    "publisher": "Amiens Métropole",
+    "url": "https://www.amiens.fr/Actualites/Le-point-sur-Y-nsect-et-Tiamat",
+    "source_type": "primary",
+    "consultation": "direct",
+    "published_at": "2026-10-06",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0008",
+    "title": "Amiens-Nord : une piste de reconversion de la friche Ynsect très électrique",
+    "publisher": "La Gazette France",
+    "url": "https://www.lagazettefrance.fr/article/amiens-nord-une-piste-de-reconversion-de-la-friche-ynsect-tres-electrique",
+    "source_type": "press",
+    "consultation": "direct",
+    "published_at": "2026-08-07",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0009",
+    "title": "Question 11974 et réponse du Gouvernement sur le financement et la liquidation d’Ynsect",
+    "publisher": "Assemblée nationale",
+    "url": "https://questions.assemblee-nationale.fr/q17/17-11974QE.htm",
+    "source_type": "primary",
+    "consultation": "direct",
+    "published_at": "2026-09-15",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0010",
+    "title": "Ynsect : pour une mission d’information et d’évaluation régionale",
+    "publisher": "Les Écologistes Hauts-de-France",
+    "url": "https://lesecologisteshdf.fr/question/ynsect-pour-la-creation-dune-mission-dinformation-et-devaluation-regionale/",
+    "source_type": "primary_statement",
+    "consultation": "direct",
+    "published_at": "2025-12-11",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0011",
+    "title": "Petit village, grandes ambitions : visite à Poulainville",
+    "publisher": "Amiens Métropole",
+    "url": "https://www.amiens.fr/Actualites/Petit-village-d-Amiens-Metropole-grandes-ambitions",
+    "source_type": "primary",
+    "consultation": "direct",
+    "published_at": "2026-05-20",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0012",
+    "title": "Revue de presse : piste Mistral AI et SCI Vertycal",
+    "publisher": "MEDEF Somme",
+    "url": "https://www.medef-connect.fr/fr/blog/article/la-revue-de-presse-344",
+    "source_type": "secondary",
+    "consultation": "direct",
+    "published_at": "2026-05-28",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0013",
+    "title": "Offre d’emploi Responsable Maintenance (H/F) — Poulainville",
+    "publisher": "Eclairion / Indeed",
+    "url": "https://fr.indeed.com/viewjob?jk=41a034cbf4cbabe9",
+    "source_type": "recruitment",
+    "consultation": "direct",
+    "published_at": null,
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0014",
+    "title": "Installations classées — site YNSECT Poulainville et inspections",
+    "publisher": "Géorisques",
+    "url": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0003802068",
+    "source_type": "primary",
+    "consultation": "direct",
+    "published_at": null,
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0015",
+    "title": "Fin d’Ÿnsect : penser à l’avenir des salariés et du site",
+    "publisher": "Amiens Métropole",
+    "url": "https://www.amiens.fr/Actualites/Fin-d-Ynsect-penser-a-l-avenir-des-salaries-et-du-site",
+    "source_type": "primary",
+    "consultation": "direct",
+    "published_at": "2025-12-03",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0016",
+    "title": "Municipales : les résultats à Amiens Métropole",
+    "publisher": "Amiens Métropole",
+    "url": "https://www.amiens.fr/Actualites/Municipales-les-re-sultats-a-Amiens-Me-tropole",
+    "source_type": "primary",
+    "consultation": "direct",
+    "published_at": "2026-03-16",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0017",
+    "title": "Rémi Cardon, candidat à un nouveau mandat de sénateur de la Somme",
+    "publisher": "ici Picardie",
+    "url": "https://www.ici.fr/hauts-de-france/somme-80/le-socialiste-remi-cardon-candidat-a-un-nouveau-mandat-de-senateur-de-la-somme-5441322",
+    "source_type": "press",
+    "consultation": "xlsx_excerpt",
+    "published_at": "2026-08-25",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0018",
+    "title": "À Poulainville, l’après-Ynsect se dessine",
+    "publisher": "Action agricole Picarde",
+    "url": "https://www.action-agricole-picarde.com/bio/poulainville-lapres-ynsect-se-dessine",
+    "source_type": "press",
+    "consultation": "direct",
+    "published_at": "2026-08-07",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0019",
+    "title": "Les Hauts-de-France, terre d’accueil des centres de données — contexte",
+    "publisher": "RTE / dossier régional",
+    "url": "https://services-rte.org/fr/actualites/validation-par-l-Etat-d-un-nouveau-site-fast-track-a-Poulainville.html",
+    "source_type": "background",
+    "consultation": "direct",
+    "published_at": "2026-07-31",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "id": "source_0020",
+    "title": "Ynsect : clap de fin pour l’ex-fleuron industriel",
+    "publisher": "Maddyness",
+    "url": "https://www.maddyness.com/2025/12/02/ynsect-clap-de-fin-pour-lex-fleuron-industriel-de-la-french-tech/",
+    "source_type": "press",
+    "consultation": "direct",
+    "published_at": "2025-12-02",
+    "accessed_at": "2026-11-05"
+  }
+]

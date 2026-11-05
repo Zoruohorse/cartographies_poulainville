@@ -1,0 +1,175 @@
+{
+  "categories": {
+    "all": {
+      "label": "Tous les acteurs",
+      "color": "#64748b"
+    },
+    "project": {
+      "label": "Projet et foncier",
+      "color": "#0f172a"
+    },
+    "porteurs": {
+      "label": "Acteurs industriels et fonciers",
+      "color": "#312e81"
+    },
+    "energie": {
+      "label": "Réseau électrique et régulation",
+      "color": "#7c3aed"
+    },
+    "elus-fav": {
+      "label": "Élus favorables / porteurs",
+      "color": "#2563eb"
+    },
+    "elus-neutres": {
+      "label": "Élus prudents ou sans position",
+      "color": "#64748b"
+    },
+    "etat": {
+      "label": "État et cadrage national",
+      "color": "#9333ea"
+    },
+    "analystes": {
+      "label": "Critiques et analyses",
+      "color": "#8b5cf6"
+    },
+    "orgs": {
+      "label": "Institutions et collectifs",
+      "color": "#10b981"
+    },
+    "territoire": {
+      "label": "Territoires",
+      "color": "#0d9488"
+    },
+    "formation": {
+      "label": "Emploi et reconversion",
+      "color": "#0284c7"
+    },
+    "vigilance": {
+      "label": "Points de vigilance",
+      "color": "#f97316"
+    },
+    "medias": {
+      "label": "Presse et références",
+      "color": "#64748b"
+    }
+  },
+  "stances": {
+    "all": {
+      "label": "Toutes les positions",
+      "color": "#64748b"
+    },
+    "opposed": {
+      "label": "Opposé au projet",
+      "color": "#ef4444"
+    },
+    "favorable": {
+      "label": "Favorable ou soutien",
+      "color": "#22c55e"
+    },
+    "neutral": {
+      "label": "Prudent ou ambigu",
+      "color": "#f59e0b"
+    }
+  },
+  "certainty_levels": {
+    "high": {
+      "label": "Haute"
+    },
+    "medium": {
+      "label": "Moyenne"
+    },
+    "low": {
+      "label": "Faible"
+    }
+  },
+  "relation_types": {
+    "located_at": {
+      "label": "Implantation sur",
+      "directed": true
+    },
+    "located_in": {
+      "label": "Situé dans",
+      "directed": true
+    },
+    "owned_by": {
+      "label": "Propriété foncière déclarée",
+      "directed": true
+    },
+    "formerly_operated_by": {
+      "label": "Ancien exploitant",
+      "directed": true
+    },
+    "coowned_by": {
+      "label": "Actionnariat déclaré dans la presse",
+      "directed": true
+    },
+    "studied_by": {
+      "label": "Piste étudiée par",
+      "directed": true
+    },
+    "collaborates_with": {
+      "label": "Coordination déclarée",
+      "directed": false
+    },
+    "represents": {
+      "label": "Représente / fonction",
+      "directed": true
+    },
+    "works_for": {
+      "label": "Travaille pour / ancien poste",
+      "directed": true
+    },
+    "supports": {
+      "label": "Soutien exprimé",
+      "directed": true
+    },
+    "raises_issue": {
+      "label": "Préoccupation ou réserve",
+      "directed": true
+    },
+    "raises_concern": {
+      "label": "Critique / demande de contrôle",
+      "directed": true
+    },
+    "requests": {
+      "label": "Demande ou souhaite",
+      "directed": true
+    },
+    "grid_planning_with": {
+      "label": "Cadre de raccordement",
+      "directed": false
+    },
+    "regulates": {
+      "label": "Cadre de régulation",
+      "directed": true
+    },
+    "context_mention": {
+      "label": "Évoqué comme contexte, sans accord",
+      "directed": false
+    },
+    "cited_as_possible_operator": {
+      "label": "Piste non confirmée",
+      "directed": true
+    },
+    "covered_by": {
+      "label": "Couverture médiatique",
+      "directed": true
+    },
+    "concerns": {
+      "label": "Concerne ce sujet",
+      "directed": true
+    },
+    "forecasts": {
+      "label": "Projection annoncée",
+      "directed": true
+    },
+    "previous_project": {
+      "label": "Situation antérieure",
+      "directed": true
+    },
+    "supports_argument": {
+      "label": "Argument avancé",
+      "directed": true
+    }
+  }
+}

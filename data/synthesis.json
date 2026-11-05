@@ -1,0 +1,173 @@
+{
+  "griefs": [
+    {
+      "title": "⚡ Pré-réservation électrique de 700 MW",
+      "text": "RTE indique 700 MW pré-réservés pour neuf mois depuis le 31 juillet 2026, éventuellement prorogeables trois mois. Ce chiffre ne correspond ni à une installation informatique exploitée, ni à un contrat de raccordement final accepté.",
+      "evidence_ids": [
+        "evidence_0001",
+        "evidence_0003"
+      ]
+    },
+    {
+      "title": "👤 Identité du porteur industriel",
+      "text": "Le porteur définitif n’est pas établi dans les sources retenues. Mistral AI a été évoqué par le Courrier Picard ; une offre Eclairion située à Poulainville constitue un signal faible non conclusif.",
+      "evidence_ids": [
+        "evidence_0012",
+        "evidence_0013",
+        "evidence_0029"
+      ]
+    },
+    {
+      "title": "💧 Consommation d’eau et refroidissement",
+      "text": "Hadrien Godard alerte sur les besoins en eau et en électricité ; l’ancienne ventilation paraît techniquement exploitable selon lui, mais aucune étude hydrique d’un futur projet n’a été présentée.",
+      "evidence_ids": [
+        "evidence_0020",
+        "evidence_0035"
+      ]
+    },
+    {
+      "title": "👷 Emploi : projections et reclassements",
+      "text": "Amiens Métropole avance 100 à 200 emplois sur les premières tranches, puis 300 à 400 à terme. Ces annonces ne se confondent pas avec les 69 anciens salariés bénéficiaires d’un accompagnement CSP ni avec des recrutements réalisés.",
+      "evidence_ids": [
+        "evidence_0026",
+        "evidence_0022"
+      ]
+    },
+    {
+      "title": "⚖️ Héritage du financement d’Ÿnsect",
+      "text": "François Ruffin et Thomas Hutin interrogent les aides publiques et les résultats de l’ancienne ferme-usine. Leur critique vise d’abord Ynsect, et ne doit pas être présentée comme opposition au projet de calcul futur.",
+      "evidence_ids": [
+        "evidence_0024",
+        "evidence_0025",
+        "evidence_0023"
+      ]
+    },
+    {
+      "title": "🏭 Foncier et reconversion",
+      "text": "La Banque des Territoires intervient pour sécuriser le foncier. SCI Vertycal serait propriétaire partielle de bâtiments, mais les détails juridiques et la sélection du nouvel opérateur nécessitent confirmation.",
+      "evidence_ids": [
+        "evidence_0009",
+        "evidence_0014",
+        "evidence_0015"
+      ]
+    },
+    {
+      "title": "🗣️ Acceptabilité locale non déterminée",
+      "text": "Rémi Cardon estime que le data center serait un moindre mal et souhaiterait une industrie structurante ; Hadrien Godard exprime des inquiétudes environnementales. Aucun collectif local opposé au data center n’est établi dans les sources consultées.",
+      "evidence_ids": [
+        "evidence_0019",
+        "evidence_0020"
+      ]
+    },
+    {
+      "title": "🇪🇺 Souveraineté numérique",
+      "text": "Léon Deffontaines souhaite des technologies françaises et européennes. Le statut Fast Track ne garantit pas à lui seul la souveraineté des données ou des opérateurs.",
+      "evidence_ids": [
+        "evidence_0018",
+        "evidence_0028"
+      ]
+    }
+  ],
+  "vigilance": [
+    {
+      "title": "Annonce des opérateurs",
+      "text": "Amiens Métropole annonçait une présentation vers mi-octobre 2026 ; aucun contrat final ni opérateur nommé n’a été confirmé par les sources vérifiées à la date d’arrêté.",
+      "evidence_ids": [
+        "evidence_0027",
+        "evidence_0033"
+      ]
+    },
+    {
+      "title": "Statut électrique RTE",
+      "text": "La pré-réservation débute le 31 juillet 2026 pour neuf mois, avec prolongation conditionnelle. Ne pas la qualifier de capacité livrée ni de permis.",
+      "evidence_ids": [
+        "evidence_0001",
+        "evidence_0003"
+      ]
+    },
+    {
+      "title": "Actionnariat foncier",
+      "text": "Propriété partielle de SCI Vertycal et lien avec la CDC rapportés dans la presse ; vérifier les actes avant de qualifier le contrôle du foncier.",
+      "evidence_ids": [
+        "evidence_0014",
+        "evidence_0015"
+      ]
+    },
+    {
+      "title": "Mistral AI et Eclairion",
+      "text": "Deux indices de nature très différente, sans preuve de contrat local. Mistral est une piste de mai ; Eclairion publie une offre d’emploi à Poulainville mais ne mentionne pas Ÿnsect.",
+      "evidence_ids": [
+        "evidence_0012",
+        "evidence_0029"
+      ]
+    },
+    {
+      "title": "Emplois projetés",
+      "text": "300–400 emplois à terme selon Frédéric Fauvet ; dénominateur, périmètre et caractère direct/indirect non documentés.",
+      "evidence_ids": [
+        "evidence_0026"
+      ]
+    },
+    {
+      "title": "Ancienne liquidation Ÿnsect",
+      "text": "Les poursuites sociales et le suivi des aides antérieures sont indépendants de la validité du nouveau projet et doivent être attribués.",
+      "evidence_ids": [
+        "evidence_0023",
+        "evidence_0022"
+      ]
+    },
+    {
+      "title": "Voisinage du Bosquel",
+      "text": "Bosquel est un autre site Fast Track ; aucune participation commune aux projets n’est établie.",
+      "evidence_ids": [
+        "evidence_0032"
+      ]
+    },
+    {
+      "title": "Environnement et autorisations",
+      "text": "Le site ancien fait l’objet d’inspections ; le dossier ne fournit ni étude d’impact hydrique du nouveau site ni permis de construire du data center.",
+      "evidence_ids": [
+        "evidence_0030",
+        "evidence_0035"
+      ]
+    },
+    {
+      "title": "Fonctions locales 2026",
+      "text": "Jean-Pierre Pardoux est maire de Poulainville ; ne pas lui attribuer une opinion spécifique sur le data center sans déclaration.",
+      "evidence_ids": [
+        "evidence_0005",
+        "evidence_0006"
+      ]
+    },
+    {
+      "title": "Périmètre de l’analyse",
+      "text": "Les sources de ce lot recensent des réserves exprimées mais pas de front associatif explicitement opposé à ce seul projet ; l’absence dans le corpus n’est pas une preuve de consensus.",
+      "evidence_ids": [
+        "evidence_0019",
+        "evidence_0020"
+      ]
+    }
+  ],
+  "sources": [
+    "source_0001",
+    "source_0002",
+    "source_0003",
+    "source_0004",
+    "source_0005",
+    "source_0006",
+    "source_0007",
+    "source_0008",
+    "source_0009",
+    "source_0010",
+    "source_0011",
+    "source_0012",
+    "source_0013",
+    "source_0014",
+    "source_0015",
+    "source_0016",
+    "source_0017",
+    "source_0018",
+    "source_0020"
+  ],
+  "method": "Les prises de position sont attribuées à leurs auteurs. Mistral et Eclairion ne sont pas considérés comme porteurs confirmés. Absence d’opposition organisée = absence de source identifiée, non consensus."
+}
