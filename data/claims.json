@@ -346,5 +346,23 @@
     "valid_from": null,
     "valid_to": null,
     "updated_at": "2026-11-05"
+  },
+  {
+    "id": "claim_0021",
+    "subject_id": "actor_0044",
+    "project_id": "project_poulainville",
+    "claim_type": "position",
+    "topic": "position_regionale_des_megadatacenters",
+    "value": "opposed",
+    "summary": "La délégation régionale critique le déploiement des méga-data centers en Hauts-de-France et soutient une demande de moratoire, citant Poulainville parmi les sites ; aucune opposition organisée ou action contentieuse propre au projet de Poulainville n'est établie par cette source.",
+    "certainty": "high",
+    "status": "attributed_regional_policy_not_site_specific",
+    "evidence_ids": [
+      "evidence_0044"
+    ],
+    "valid_from": "2026-11-06",
+    "valid_to": null,
+    "updated_at": "2026-11-09",
+    "position_scope": "regional_policy_including_poulainville_not_site_specific"
   }
 ]

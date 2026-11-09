@@ -746,5 +746,23 @@
     ],
     "display_in_cards": false,
     "updated_at": "2026-11-05"
+  },
+  {
+    "id": "actor_0044",
+    "type": "org",
+    "name": "Les Écologistes Hauts-de-France — délégation régionale",
+    "short_name": "Écologistes HDF",
+    "description": "Opposition argumentée à l'expansion régionale des méga-data centers, publiée le 6 novembre 2026 par Katy Vuylsteker : Poulainville est cité dans les sites concernés, sans mobilisation ou recours local attesté dans la publication.",
+    "roles": [
+      {
+        "label": "Opposition régionale au développement non encadré des data centers — pas de recours local établi"
+      }
+    ],
+    "categories": [
+      "analystes",
+      "orgs"
+    ],
+    "display_in_cards": true,
+    "updated_at": "2026-11-09"
   }
 ]

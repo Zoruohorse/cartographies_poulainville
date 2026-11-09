@@ -6,7 +6,11 @@
       "evidence_ids": [
         "evidence_0001",
         "evidence_0003"
-      ]
+      ],
+      "id": "grief_poulainville_001",
+      "qualification": "Les 700 MW sont une pré-réservation RTE, non une puissance informatique livrée, une autorisation ou un contrat de raccordement final.",
+      "scope": "source_attributed_issue_not_local_formal_opposition",
+      "documented_local_opposition": false
     },
     {
       "title": "👤 Identité du porteur industriel",
@@ -15,7 +19,11 @@
         "evidence_0012",
         "evidence_0013",
         "evidence_0029"
-      ]
+      ],
+      "id": "grief_poulainville_002",
+      "qualification": "Mistral AI et Eclairion sont des pistes ou signaux faibles, pas des repreneurs confirmés.",
+      "scope": "source_attributed_issue_not_local_formal_opposition",
+      "documented_local_opposition": false
     },
     {
       "title": "💧 Consommation d’eau et refroidissement",
@@ -23,7 +31,11 @@
       "evidence_ids": [
         "evidence_0020",
         "evidence_0035"
-      ]
+      ],
+      "id": "grief_poulainville_003",
+      "qualification": "Hadrien Godard exprime des réserves sur les consommations énergétiques et hydriques ; aucune consommation annuelle propre au futur projet n'est mesurée.",
+      "scope": "source_attributed_issue_not_local_formal_opposition",
+      "documented_local_opposition": false
     },
     {
       "title": "👷 Emploi : projections et reclassements",
@@ -31,7 +43,11 @@
       "evidence_ids": [
         "evidence_0026",
         "evidence_0022"
-      ]
+      ],
+      "id": "grief_poulainville_004",
+      "qualification": "Les 300–400 emplois à terme correspondent à une projection politique ; les anciens salariés Ÿnsect relèvent d'un autre processus.",
+      "scope": "source_attributed_issue_not_local_formal_opposition",
+      "documented_local_opposition": false
     },
     {
       "title": "⚖️ Héritage du financement d’Ÿnsect",
@@ -40,7 +56,11 @@
         "evidence_0024",
         "evidence_0025",
         "evidence_0023"
-      ]
+      ],
+      "id": "grief_poulainville_005",
+      "qualification": "Les interrogations de François Ruffin et Thomas Hutin portent sur la liquidation et les aides d'Ÿnsect, pas sur une opposition au data center.",
+      "scope": "source_attributed_issue_not_local_formal_opposition",
+      "documented_local_opposition": false
     },
     {
       "title": "🏭 Foncier et reconversion",
@@ -49,7 +69,11 @@
         "evidence_0009",
         "evidence_0014",
         "evidence_0015"
-      ]
+      ],
+      "id": "grief_poulainville_006",
+      "qualification": "La sécurisation foncière portée par la Banque des Territoires doit être distinguée des titres de propriété et de la décision finale sur l'opérateur.",
+      "scope": "source_attributed_issue_not_local_formal_opposition",
+      "documented_local_opposition": false
     },
     {
       "title": "🗣️ Acceptabilité locale non déterminée",
@@ -57,7 +81,11 @@
       "evidence_ids": [
         "evidence_0019",
         "evidence_0020"
-      ]
+      ],
+      "id": "grief_poulainville_007",
+      "qualification": "Rémi Cardon estime le projet être un moindre mal et Hadrien Godard souligne des risques : cela ne démontre pas l'existence d'un collectif local opposant.",
+      "scope": "source_attributed_issue_not_local_formal_opposition",
+      "documented_local_opposition": false
     },
     {
       "title": "🇪🇺 Souveraineté numérique",
@@ -65,7 +93,23 @@
       "evidence_ids": [
         "evidence_0018",
         "evidence_0028"
-      ]
+      ],
+      "id": "grief_poulainville_008",
+      "qualification": "Léon Deffontaines formule une attente de souveraineté ; un statut Fast Track ne garantit pas des technologies françaises ni européennes.",
+      "scope": "source_attributed_issue_not_local_formal_opposition",
+      "documented_local_opposition": false
+    },
+    {
+      "id": "grief_poulainville_009",
+      "title": "🗳️ Opposition politique régionale au modèle des méga-data centers",
+      "text": "Le 6 novembre 2026, Les Écologistes Hauts-de-France, dans un texte signé Katy Vuylsteker, citent Poulainville parmi les projets Fast Track et critiquent la priorité donnée aux grands data centers pour des raisons foncières, énergétiques, hydriques et de pertinence des usages. Le groupe soutient une demande de moratoire régional. Le communiqué situe les mobilisations annoncées sur d'autres communes ; aucune action ou recours spécifique à Poulainville n'est documenté.",
+      "qualification": "Position politique régionale attribuée, directement sourcée. Elle ne prouve ni un collectif de riverains opposé au site, ni un recours propre à Poulainville.",
+      "evidence_ids": [
+        "evidence_0044"
+      ],
+      "scope": "regional_criticism_including_site_not_local_protest",
+      "documented_local_opposition": false,
+      "documented_regional_opposition": true
     }
   ],
   "vigilance": [
@@ -146,6 +190,13 @@
         "evidence_0019",
         "evidence_0020"
       ]
+    },
+    {
+      "title": "Opposition régionale citant Poulainville (6 novembre 2026)",
+      "text": "Les Écologistes Hauts-de-France soutiennent un moratoire sur les nouveaux méga-data centers et citent Poulainville parmi les sites régionaux ; pas de mobilisation spécifique au village démontrée dans cette source.",
+      "evidence_ids": [
+        "evidence_0044"
+      ]
     }
   ],
   "sources": [
@@ -169,5 +220,19 @@
     "source_0018",
     "source_0020"
   ],
-  "method": "Les prises de position sont attribuées à leurs auteurs. Mistral et Eclairion ne sont pas considérés comme porteurs confirmés. Absence d’opposition organisée = absence de source identifiée, non consensus."
+  "method": "Enjeux attribués à leurs sources, sans transformer les risques évoqués en dommages constatés. Distinction entre opposition régionale au modèle des data centers (source du 6 novembre 2026), réserves locales et critiques de l'ancienne usine Ÿnsect ; aucune opposition associative locale propre au projet attestée.",
+  "opposition_status": {
+    "as_of": "2026-11-09",
+    "regional_critical_groups_identified": 1,
+    "local_collectives_identified": 0,
+    "description": "Un groupe politique régional, Les Écologistes Hauts-de-France, critique le développement des méga-data centers en citant Poulainville (6 novembre 2026). Aucun collectif d'opposition ni recours formel ciblant spécifiquement le site de Poulainville n'est documenté dans les sources consultées. Les critiques de l'ancien Ÿnsect ne sont pas attribuées au futur data center.",
+    "evidence_ids": [
+      "evidence_0044",
+      "evidence_0019",
+      "evidence_0020",
+      "evidence_0024",
+      "evidence_0025"
+    ]
+  },
+  "updated_at": "2026-11-09"
 }

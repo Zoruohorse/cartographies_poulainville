@@ -1,5 +1,5 @@
 {
-  "project_status": "Reconversion en préparation : site labellisé Fast Track, opérateur final non confirmé au 05/11/2026.",
+  "project_status": "Au 9 novembre 2026 : ancienne friche Ÿnsect en reconversion, 700 MW pré-réservés depuis le 31 juillet, attribution finale et permis non documentés. Une critique régionale du développement des méga-data centers cite Poulainville le 6 novembre, sans collectif local formel attesté.",
   "project_summary": "Ancienne usine Ÿnsect / ŸnFarm de Poulainville au nord d’Amiens, étudiée pour une activité électro-intensive dont un data center/gigacalculateur. L’État a demandé 700 MW de pré-réservation à RTE. Aucun contrat opérateur final documenté dans le corpus.",
   "fact_sheet": [
     {
@@ -51,6 +51,14 @@
       "qualifier": "Projection d’Amiens Métropole du 24 septembre 2026, non vérifiée sur un opérateur confirmé",
       "evidence_ids": [
         "evidence_0026"
+      ]
+    },
+    {
+      "label": "Opposition documentée au 9 novembre",
+      "value": "1 groupe régional critique ; 0 collectif local prouvé",
+      "qualifier": "Les Écologistes Hauts-de-France citent Poulainville dans leur critique régionale du déploiement des méga-data centers. Ce n'est pas une preuve de manifestation ou de recours ciblé sur la friche Ÿnsect.",
+      "evidence_ids": [
+        "evidence_0044"
       ]
     }
   ],
@@ -108,6 +116,18 @@
       ]
     },
     {
+      "date": "2026-09-15",
+      "period_precision": "day",
+      "status": "completed",
+      "title": "Réponse ministérielle sur l’ancienne entreprise Ÿnsect",
+      "details": "Le gouvernement répond à la question de François Ruffin sur le financement, la liquidation et le reclassement des ex-salariés. Ce volet social ne qualifie pas la position de l'élu sur le futur data center.",
+      "evidence_ids": [
+        "evidence_0023",
+        "evidence_0025",
+        "evidence_0036"
+      ]
+    },
+    {
       "date": "2026-09-24",
       "period_precision": "day",
       "status": "completed",
@@ -125,6 +145,16 @@
       "details": "La communication d’octobre envisageait un dévoilement vers mi-octobre ; aucune annonce définitive retrouvée à la date d’arrêté.",
       "evidence_ids": [
         "evidence_0027"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "period_precision": "day",
+      "status": "documented_regional_position",
+      "title": "Prise de position régionale critique citant Poulainville",
+      "details": "Les Écologistes Hauts-de-France dénoncent le développement régional des méga-data centers et soutiennent un moratoire. Leur texte cite Poulainville mais ne documente pas de manifestation ni de recours local contre ce site.",
+      "evidence_ids": [
+        "evidence_0044"
       ]
     },
     {
@@ -169,5 +199,6 @@
       "status": "not_identified",
       "description": "Ne pas inventer de collectif à partir des critiques historiques d’Ÿnsect."
     }
-  ]
+  ],
+  "methodology": "Jalons factuels et prospectifs séparés ; une annonce attendue en octobre mais non documentée à la date d'arrêté ne devient pas un fait. Les critiques sociales de l'ancienne entreprise sont distinctes des positions sur le futur projet."
 }

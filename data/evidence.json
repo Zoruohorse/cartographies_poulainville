@@ -514,5 +514,17 @@
     "published_at": "2026-08-07",
     "accessed_at": "2026-11-05",
     "status": "verified_or_attributed"
+  },
+  {
+    "id": "evidence_0044",
+    "type": "reported_summary",
+    "text": "Dans une prise de position publiée le 6 novembre 2026 sous le nom de Katy Vuylsteker, les Écologistes Hauts-de-France critiquent l'expansion régionale des méga-data centers, citent explicitement Poulainville parmi les sites concernés par la politique Fast Track et indiquent leur soutien à une mobilisation réclamant un moratoire. Le texte ne documente pas de mobilisation ou de recours spécifiquement à Poulainville ; les rassemblements cités sont situés dans d'autres communes.",
+    "source_id": "source_0021",
+    "source_status": "qualified",
+    "source_location": "Publication du 6 novembre 2026, paragraphes sur le Fast Track, les enjeux fonciers/hydriques/électriques et les mobilisations des 7-8 novembre.",
+    "certainty": "high",
+    "published_at": "2026-11-06",
+    "accessed_at": "2026-11-09",
+    "status": "reported_opposition_regional_scope"
   }
 ]

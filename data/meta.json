@@ -2,12 +2,13 @@
   "id": "project_poulainville",
   "title": "Cartographie des acteurs — Poulainville (reconversion Ÿnsect)",
   "subtitle": "Ancienne usine Ÿnsect au nord d’Amiens : foncier stratégique, 700 MW pré-réservés par RTE depuis le 31 juillet 2026, projet de data center/gigacalculateur encore à attribuer.",
-  "last_updated": "2026-11-05",
+  "last_updated": "2026-11-09",
   "created_at": "2026-11-05",
-  "data_notice": "Référentiel sourcé au 5 novembre 2026 : pré-réservation RTE ≠ raccordement livré ; Mistral AI et Eclairion non confirmés comme repreneurs ; réserves sur Ynsect distinctes des positions sur le futur data center.",
+  "data_notice": "Référentiel sourcé au 5 novembre 2026 : pré-réservation RTE ≠ raccordement livré ; Mistral AI et Eclairion non confirmés comme repreneurs ; réserves sur Ynsect distinctes des positions sur le futur data center. Actualisation du 9 novembre 2026 : opposition politique régionale du 6 novembre citant Poulainville, mais aucun collectif local anti-projet prouvé. Neuf thèmes sourcés, chronologie enrichie et évolution de 25 acteurs datés ; 1 fiche non datée.",
   "source_workbook": "Poulainville.xlsx",
   "source_workbook_count": 6,
   "baseline": "initial_creation",
   "source_policy": "Chaque position et relation est rattachée à au moins une preuve avec URL canonique. Consultation directe ou texte de presse transmis signalés séparément.",
-  "method_version": "1.0.0"
+  "method_version": "1.1.0",
+  "evolution_note": "L'option Par position ne retrace pas des changements d'opinion ; elle classe les apparitions documentées par la position consignée. La position des Écologistes est régionale, pas une opposition organisée propre au village."
 }

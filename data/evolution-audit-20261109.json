@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-09",
+  "baseline": {
+    "actors": 44,
+    "visible": 25,
+    "positions": 20,
+    "relations": 51,
+    "evidence": 43,
+    "sources": 20,
+    "griefs": 8,
+    "milestones": 8
+  },
+  "updated": {
+    "actors": 45,
+    "visible": 26,
+    "positions": 21,
+    "relations": 52,
+    "evidence": 44,
+    "sources": 21,
+    "grievances": 9,
+    "milestones": 10,
+    "technical_facts": 7,
+    "timeline": 26,
+    "dated": 25,
+    "undated": 1,
+    "direct_dated": 15,
+    "context_dated": 10
+  },
+  "stance_all": {
+    "favorable": 8,
+    "neutral": 12,
+    "opposed": 1,
+    "unknown": 4
+  },
+  "stance_direct": {
+    "favorable": 8,
+    "neutral": 6,
+    "opposed": 0,
+    "unknown": 1
+  },
+  "monthly_all": {
+    "2025-12": 3,
+    "2026-02": 1,
+    "2026-03": 1,
+    "2026-05": 5,
+    "2026-07": 3,
+    "2026-08": 8,
+    "2026-09": 2,
+    "2026-10": 1,
+    "2026-11": 1
+  },
+  "undated": [
+    {
+      "actor_id": "actor_0013",
+      "source_ids": [
+        "source_0013"
+      ],
+      "reason": "Offre d'emploi Eclairion géolocalisée à Poulainville, sans date de publication qualifiée et sans référence à l'ancienne friche Ÿnsect : non comptabilisée."
+    }
+  ],
+  "key_separation": "Les Écologistes sont opposés au développement régional des méga-data centers (périmètre contextuel), sans preuve d'opposition locale au site précis. Ynsect, les salariés, Ruffin et Hutin concernent les conséquences de l'ancienne usine et non une contestation du projet de reconversion informatique.",
+  "preserved": [
+    "19 positions et relations précédentes",
+    "Ancien 20e statut? voir baseline positions 20, inchangées sauf ajout actor_0044",
+    "pas de contrat fictif Mistral/Eclairion",
+    "pré-réservation RTE ≠ puissance raccordée"
+  ]
+}

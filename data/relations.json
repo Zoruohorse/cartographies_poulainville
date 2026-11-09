@@ -773,5 +773,17 @@
     "valid_from": null,
     "valid_to": null,
     "updated_at": "2026-11-05"
+  },
+  {
+    "id": "relation_0052",
+    "source_id": "actor_0044",
+    "target_id": "project_poulainville",
+    "type": "context_mention",
+    "summary": "La délégation régionale cite Poulainville parmi les sites de développement Fast Track dans sa critique du modèle régional de méga-data centers. Cela ne démontre ni recours ni collectif local spécifique.",
+    "certainty": "high",
+    "evidence_ids": [
+      "evidence_0044"
+    ],
+    "updated_at": "2026-11-09"
   }
 ]

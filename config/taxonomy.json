@@ -171,5 +171,71 @@
       "label": "Argument avancé",
       "directed": true
     }
+  },
+  "timeline": {
+    "event_type": "first_documented_appearance",
+    "grouping": "month",
+    "default_mode": "cumulative",
+    "default_scope": "direct",
+    "categories": [
+      {
+        "id": "institutions",
+        "label": "Collectivités et institutions",
+        "color": "#617ac6"
+      },
+      {
+        "id": "entreprises",
+        "label": "Industrie et foncier",
+        "color": "#0f9f91"
+      },
+      {
+        "id": "energie",
+        "label": "Réseau et régulation",
+        "color": "#3485bd"
+      },
+      {
+        "id": "etat",
+        "label": "État et services publics",
+        "color": "#9976c2"
+      },
+      {
+        "id": "elus",
+        "label": "Élus et responsables politiques",
+        "color": "#d29757"
+      },
+      {
+        "id": "analystes",
+        "label": "Analyses et critiques",
+        "color": "#d8706b"
+      },
+      {
+        "id": "formation",
+        "label": "Emploi et reconversion",
+        "color": "#7e9a5e"
+      }
+    ],
+    "stances": [
+      {
+        "id": "favorable",
+        "label": "Favorables ou engagés pour reconversion",
+        "color": "#16a34a"
+      },
+      {
+        "id": "opposed",
+        "label": "Critiques opposés (politique régionale)",
+        "color": "#dc2626"
+      },
+      {
+        "id": "neutral",
+        "label": "Prudents, techniques ou réservés",
+        "color": "#f59e0b"
+      },
+      {
+        "id": "unknown",
+        "label": "Position non établie",
+        "color": "#94a3b8"
+      }
+    ],
+    "methodology": "Pour chaque acteur, première mention datée vérifiable, pas première prise de position historique. Le mode Par position ventile les catégories des fiches et ne reproduit pas leurs changements de position. Par défaut, seuls les acteurs directement liés au dossier local sont comptés ; le périmètre élargi inclut un opposant à la stratégie régionale, sans lui attribuer de recours spécifique à Poulainville."
   }
 }
