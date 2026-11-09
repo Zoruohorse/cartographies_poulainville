@@ -1,5 +1,5 @@
 export async function loadRepository(base='../../') {
- const paths={meta:'data/meta.json',actors:'data/actors.json',claims:'data/claims.json',evidence:'data/evidence.json',relations:'data/relations.json',sources:'data/sources.json',taxonomy:'config/taxonomy.json',synthesis:'data/synthesis.json',content:'data/content.json'};
+ const paths={meta:'data/meta.json',actors:'data/actors.json',claims:'data/claims.json',evidence:'data/evidence.json',relations:'data/relations.json',sources:'data/sources.json',taxonomy:'config/taxonomy.json',synthesis:'data/synthesis.json',content:'data/content.json',timeline:'data/timeline.json'};
  const entries=await Promise.all(Object.entries(paths).map(async([key,path])=>{const response=await fetch(base+path,{cache:'no-store'});if(!response.ok)throw Error('Chargement '+path+' : HTTP '+response.status);return[key,await response.json()]}));
  const d=Object.fromEntries(entries);d.actorById=new Map(d.actors.map(x=>[x.id,x]));d.sourceById=new Map(d.sources.map(x=>[x.id,x]));d.evidenceById=new Map(d.evidence.map(x=>[x.id,x]));d.claimsByActor=new Map();for(const c of d.claims){const list=d.claimsByActor.get(c.subject_id)||[];list.push(c);d.claimsByActor.set(c.subject_id,list)}return d;
 }

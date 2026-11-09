@@ -1,4 +1,5 @@
-import{loadRepository,esc,norm,actorClaim,evidenceHtml,citationLinks,label}from'./data-loader.js';
+import{loadRepository,esc,norm,actorClaim,evidenceHtml,citationLinks,label}from'./data-loader.js?v=20261109';
+import { initEvolution } from './evolution.js?v=20261109';
 const d=await loadRepository();
 const elements={title:document.getElementById('title'),subtitle:document.getElementById('subtitle'),notice:document.getElementById('notice'),categories:document.getElementById('categories'),stances:document.getElementById('stances'),count:document.getElementById('count'),grid:document.getElementById('grid'),search:document.getElementById('search'),reset:document.getElementById('reset'),detail:document.getElementById('detail'),dialog:document.getElementById('dialog')};
 let cat='all',stance='all',q='';
@@ -32,7 +33,18 @@ document.querySelector('.close').addEventListener('click',()=>elements.dialog.cl
 elements.dialog.addEventListener('click',event=>{if(event.target===elements.dialog)elements.dialog.close()});
 filters();render();
 const supplement=ids=>{const v=citationLinks(d,ids||[],true);return v?'<div class="source-citations"><b>Sources :</b> '+v+'</div>':''};
-document.getElementById('griefGrid').innerHTML=d.synthesis.griefs.map(g=>'<article class="griefCard"><h2>'+esc(g.title)+'</h2><p>'+esc(g.text)+'</p>'+supplement(g.evidence_ids)+'</article>').join('');
+
+const documentaryDetail=ids=>{
+ if(!ids?.length)return '';
+ return '<details class="synth-proofs"><summary>Consulter les preuves documentaires ('+ids.length+')</summary>'+ids.map(id=>{
+  const item=d.evidenceById.get(id);
+  return item?'<div class="synth-proof"><p>'+esc(item.text)+'</p><small>'+citationLinks(d,[id],false)+'</small></div>':'';
+ }).join('')+'</details>';
+};
+const intro=document.getElementById('opposition-intro');
+intro.innerHTML='<h2>État des oppositions et positions critiques</h2><p>'+esc(d.synthesis.opposition_status?.description||'')+'</p><p class="muted">Une opposition politique au modèle régional des méga-data centers ne prouve pas une manifestation ni un recours local. Les positions liées à l’ancienne société Ÿnsect sont traitées séparément.</p>'+supplement(d.synthesis.opposition_status?.evidence_ids);
+
+document.getElementById('griefGrid').innerHTML=d.synthesis.griefs.map(g=>'<article class="griefCard"><h2>'+esc(g.title)+'</h2><p>'+esc(g.text)+'</p>'+'<p class="synth-qualification">'+esc(g.qualification||'')+'</p>'+supplement(g.evidence_ids)+documentaryDetail(g.evidence_ids)+'</article>').join('');
 document.getElementById('vigilance').innerHTML=d.synthesis.vigilance.map(v=>'<li><b>'+esc(v.title)+'</b><p>'+esc(v.text)+'</p>'+supplement(v.evidence_ids)+'</li>').join('');
 document.getElementById('sources').innerHTML=d.sources.filter(s=>s.url).map(s=>'<li><a href="'+esc(s.url)+'" rel="noopener noreferrer" target="_blank">'+esc(s.publisher)+' — '+esc(s.title)+'</a> <small class="muted">('+esc(s.published_at||'date inconnue')+' ; '+(s.consultation==='direct'?'consulté':'extrait transmis')+')</small></li>').join('');
 document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{
@@ -40,5 +52,9 @@ document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()
  document.querySelectorAll('.tab-pane').forEach(x=>x.classList.toggle('active',x.id==='tab-'+b.dataset.tab))
 }));
 const period=m=>m.period_precision==='year'?m.date.slice(0,4):m.period_precision==='month'?m.date.slice(0,7):m.date;
-document.getElementById('timelineGrid').innerHTML=d.content.milestones.map(m=>'<article class="griefCard '+(m.status==='forecast'?'chrono-forecast':'')+'"><div class="chrono-date">'+esc(period(m))+' · '+(m.status==='forecast'?'PRÉVISION':'ÉTAPE DOCUMENTÉE')+'</div><h2>'+esc(m.title)+'</h2><p>'+esc(m.details)+'</p>'+supplement(m.evidence_ids)+'</article>').join('');
+const chronoType=m=>m.status==='forecast'?(m.date<'2026-11'?'ANNONCE ANTICIPÉE, NON CONFIRMÉE':'PRÉVISION'):m.status==='reported'?'HYPOTHÈSE RAPPORTÉE':m.status==='documented_regional_position'?'CRITIQUE RÉGIONALE':'ÉTAPE DOCUMENTÉE';
+document.getElementById('timelineGrid').innerHTML=d.content.milestones.map(m=>'<article class="griefCard '+(m.status==='forecast'?'chrono-forecast':'')+'"><div class="chrono-date">'+esc(period(m))+' · '+chronoType(m)+'</div><h2>'+esc(m.title)+'</h2><p>'+esc(m.details)+'</p>'+supplement(m.evidence_ids)+'</article>').join('');
 document.getElementById('factGrid').innerHTML=d.content.fact_sheet.map(f=>'<article class="griefCard"><h2>'+esc(f.label)+'</h2><p><strong>'+esc(f.value)+'</strong></p><p class="muted">'+esc(f.qualifier)+'</p>'+supplement(f.evidence_ids)+'</article>').join('');
+
+// Graphique mensuel : nouveaux / cumulés / par position, périmètre local ou élargi.
+initEvolution({repository:d,root:document.getElementById('evolution-root')});

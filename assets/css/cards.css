@@ -8,3 +8,12 @@
 @media(max-width:700px){.griefGrid{grid-template-columns:1fr}.tabs{gap:6px}.tab{flex:1 1 100%;text-align:left}}
 /* Adaptations légères aux preuves documentaires et à la chronologie, sans changement de charte. */
 .proof a,.griefCard a,.listCard a{color:var(--blue);text-decoration:underline;text-underline-offset:2px}.proof p{line-height:1.55;margin:8px 0}.proof-kind{font-size:.72rem;font-weight:800;color:#64748b}.proof-foot{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:.8rem}.proof small{display:block;font-size:.75rem;color:#64748b;margin-top:6px}.source-citations{font-size:.77rem;margin-top:13px;padding-top:8px;border-top:1px solid var(--border)}#factGrid{margin-top:13px}#tab-timeline .listCard{margin-top:22px}.chrono-date{font-size:.78rem;font-weight:800;color:#2563eb;letter-spacing:.04em}.chrono-forecast .chrono-date{color:#b45309}
+
+/* Poulainville — synthèse sourcée, chronologie et preuve dépliable */
+#opposition-intro{margin-bottom:20px}
+.synth-qualification{font-size:.88rem;color:#475569;line-height:1.45;margin-top:12px!important}
+.synth-proofs{margin-top:12px;border:1px solid #cbd5e1;border-radius:10px;padding:10px 12px}
+.synth-proofs summary{cursor:pointer;font-weight:700;font-size:.85rem;color:#334155}
+.synth-proof{padding:10px 0;border-top:1px solid #e2e8f0;margin-top:8px;font-size:.86rem;color:#475569}
+.synth-proof p{margin:0 0 8px}.synth-proof a{color:#2563eb;text-decoration:underline}
+.chrono-header{margin-bottom:18px}.chrono-header h2{font-size:1.5rem;margin:0 0 5px}.chrono-header p{color:#64748b;margin:0}
